@@ -34,7 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <h2>Register</h2>
+            <div class="text-center mb-4">
+                <img src="img/logo_al_muttaqin.png" alt="Logo" style="max-width: 150px;">
+            </div>
+            <h2 class="text-center">Register</h2>
             <?php if (isset($error)): ?>
                 <div class="alert alert-danger"><?php echo $error; ?></div>
             <?php endif; ?>
